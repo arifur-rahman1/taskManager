@@ -1,12 +1,15 @@
-import Header from "./Header"
+import Footer from "./Footer";
+import Header from "./Header";
+import Hero from "./Hero";
 
 function App() {
-
   return (
     <>
-   <Header/>
+      <Header />
+      <Hero/>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
